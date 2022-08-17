@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'SisulAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'ict1234',
-        'HOST': 'database-1.cqkml2m6rrks.ap-northeast-2.rds.amazonaws.com',
-        'PASSWORD': '123456789',
+        'NAME': 'YOUR DB_NAME',
+        'USER': 'USER_NAME',
+        'HOST': 'HOST_URI',
+        'PASSWORD': 'YOUR PASSWORD',
         'PORT': '5432',
 
     }
